@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color: #007700;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-item:hover {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-item:hover a {
+    color:#000000
+}
+
+.nav-item-login{
+    border: 1px solid white; /* Define el grosor y el color del borde */
+    padding: 2px; /* Espacio entre el borde y el contenido */
+    display: inline-block; /* Para que el div se ajuste al tamaño del contenido */
+}
